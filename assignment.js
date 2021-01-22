@@ -1,4 +1,5 @@
 // https://github.com/MofasserHossain/JSProject1
+
 // .convert kilometer to meter
 function kilometerToMeter(kilometer) {
     var result = kilometer * 1000;
@@ -67,7 +68,7 @@ function hotelCost(days){
 var totalHouseCost = hotelCost(12);
 
 
-// .Find Mega Frind Name
+// .Find Mega Friend Name
 function megaFriend(friendsName){
     var megaFrinedName = friendsName[0];
     for (var i = 0; i < friendsName.length; i++) {
