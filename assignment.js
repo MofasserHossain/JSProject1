@@ -3,16 +3,16 @@ function kilometerToMeter(kilometer) {
     var result = kilometer * 1000;
     // . condition
     if (kilometer < 0){
-        return "Your Have Enter Wrong Number. Enter Value Above Zero!";
+        return "Unexpected error!! Enter Value Above Zero!";
     }
     else if (kilometer == 0){
-        return "Enter Value Above Zero!";
+        return "Your Result is 0. Enter Value Above Zero!";
     } 
     else{
         return result;
     }
 }
-var kiloToMeter = kilometerToMeter(3);
+var kiloToMeter = kilometerToMeter(0);
 console.log(kiloToMeter);
 
 
@@ -20,10 +20,10 @@ console.log(kiloToMeter);
 function budgetCalculator(watch, mobile, laptop){
     // . condition
     if (watch < 0 || mobile < 0 || laptop < 0) {
-        return "Your Have Enter Wrong Value. Enter Number Above Zero. Happy Shopping..";
+        return "Unexpected error!! Enter Number Above Zero. Happy Shopping..";
     }
     else if (watch == 0 || mobile == 0 || laptop == 0) {
-        return "Enter Number Avobe Zero. Minimum Product Quantity is One. Happy Shopping!";
+        return "Unexpected error!! Minimum Product's Quantity is One. Happy Shopping!";
     }
     else {
         var watchPrice = watch * 50,
@@ -42,10 +42,10 @@ function hotelCost(days){
     var totalCost = 0;
     // . condition
     if (days < 0) {
-        return "You Have Enter Worng Number!! Enter Number Avobe Zero.";
+        return "Unexpected error!! Enter Your Number Avobe Zero.";
     }
     else if(days == 0){
-        return "Enter Your Value Avobe Zero.";
+        return "Unexpected error!! Minimum Day's Quantity is One.";
     }
     else if (days <= 10) {
         totalCost = days * 100;
@@ -74,7 +74,7 @@ function megaFriend(friendsName){
     for (var i = 0; i < friendsName.length; i++) {
         var element = friendsName[i];
         if(element.length <= 0){
-            return "Unexpected error!! Enter Right Name.";
+            return "Unexpected error!! Enter Right Name In Array Value.";
         }
         else if (element.length > megaFrinedName.length) {
             megaFrinedName = element;
