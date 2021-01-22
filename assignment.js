@@ -13,7 +13,6 @@ function kilometerToMeter(kilometer) {
     }
 }
 var kiloToMeter = kilometerToMeter(0);
-console.log(kiloToMeter);
 
 
 // .find Shopping Cost
@@ -34,7 +33,6 @@ function budgetCalculator(watch, mobile, laptop){
     }
 }
 var totalShoppingCost = budgetCalculator(5, 2, 2);
-console.log(totalShoppingCost);
 
 
 // .Find Hotel cost
@@ -66,7 +64,7 @@ function hotelCost(days){
     return totalCost;
 }
 var totalHouseCost = hotelCost(12);
-console.log(totalHouseCost);
+
 
 // .Find Mega Frind Name
 function megaFriend(friendsName){
@@ -84,4 +82,3 @@ function megaFriend(friendsName){
 }
 var friendsName = ["Sayed Rabet", "Asif Al Mahbub", "Emon Hossain", "Imam Hossain Emon"];
 var megaName = megaFriend(friendsName);
-console.log(megaName);
