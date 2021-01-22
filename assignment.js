@@ -14,7 +14,7 @@ function kilometerToMeter(kilometer) {
         return result;
     }
 }
-var kiloToMeter = kilometerToMeter(0);
+var kiloToMeter = kilometerToMeter(4);
 
 
 // .find Shopping Cost
